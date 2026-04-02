@@ -150,7 +150,7 @@ export default function Index() {
           <img
             src="https://cdn.poehali.dev/projects/f14221c8-8d91-4120-a58f-3071713058e2/bucket/19bfc027-8197-430d-a7f3-838c7874f053.png"
             alt="Elina Learn"
-            className="h-[120px] w-auto"
+            className="h-[240px] w-auto"
           />
           <div className="hidden md:flex items-center gap-8">
             {NAV_LINKS.map((l) => (
