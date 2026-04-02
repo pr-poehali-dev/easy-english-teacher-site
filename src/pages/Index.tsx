@@ -147,11 +147,7 @@ export default function Index() {
       {/* NAVBAR */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-navy-950/95 backdrop-blur-sm border-b border-gold-500/20">
         <div className="max-w-6xl mx-auto px-6 flex items-center justify-between h-16">
-          <img
-            src="https://cdn.poehali.dev/projects/f14221c8-8d91-4120-a58f-3071713058e2/bucket/19bfc027-8197-430d-a7f3-838c7874f053.png"
-            alt="Elina Learn"
-            className="h-[240px] w-auto mt-[120px]"
-          />
+          <div className="w-[240px]" />
           <div className="hidden md:flex items-center gap-8">
             {NAV_LINKS.map((l) => (
               <button
@@ -190,6 +186,11 @@ export default function Index() {
 
       {/* HERO */}
       <section className="relative min-h-screen flex items-center bg-navy-950 overflow-hidden pt-16">
+        <img
+          src="https://cdn.poehali.dev/projects/f14221c8-8d91-4120-a58f-3071713058e2/bucket/19bfc027-8197-430d-a7f3-838c7874f053.png"
+          alt="Elina Learn"
+          className="absolute top-16 left-6 h-[240px] w-auto z-10"
+        />
         <div
           className="absolute inset-0 opacity-5"
           style={{
