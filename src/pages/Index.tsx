@@ -148,7 +148,7 @@ export default function Index() {
       <nav className="fixed top-0 left-0 right-0 z-50 bg-navy-950/95 backdrop-blur-sm border-b border-gold-500/20">
         <div className="max-w-6xl mx-auto px-6 flex items-center justify-between h-16">
           <span className="font-cormorant text-xl font-semibold text-white tracking-wide">
-            Elena <span className="text-gold-400">Smirnova</span>
+            Elina <span className="text-gold-400">Moore</span>
           </span>
           <div className="hidden md:flex items-center gap-8">
             {NAV_LINKS.map((l) => (
@@ -259,7 +259,7 @@ export default function Index() {
             <div className="w-full h-[480px] bg-navy-100 relative overflow-hidden">
               <img src={TEACHER_PHOTO} alt="О преподавателе" className="w-full h-full object-cover object-top" />
               <div className="absolute bottom-6 left-6 bg-navy-950 text-white px-6 py-4">
-                <div className="font-cormorant text-2xl font-semibold">Елена Смирнова</div>
+                <div className="font-cormorant text-2xl font-semibold">Элина Мур</div>
                 <div className="text-gold-400 text-sm mt-1">M.A. Linguistics, CELTA Certified</div>
               </div>
             </div>
@@ -511,7 +511,7 @@ export default function Index() {
             </p>
             <div className="space-y-4">
               {[
-                { icon: "Mail", text: "elena.smirnova@english-pro.ru" },
+                { icon: "Mail", text: "elina.moore@english-pro.ru" },
                 { icon: "Phone", text: "+7 (495) 123-45-67" },
                 { icon: "MessageCircle", text: "Telegram: @elena_english" },
                 { icon: "Clock", text: "Пн–Пт: 9:00–21:00, Сб: 10:00–18:00" },
@@ -577,7 +577,7 @@ export default function Index() {
       <footer className="bg-navy-950 border-t border-white/5 py-8">
         <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-4">
           <span className="font-cormorant text-lg text-navy-400">
-            Elena <span className="text-gold-500">Smirnova</span> · English Teacher
+            Elina <span className="text-gold-500">Moore</span> · English Teacher
           </span>
           <span className="text-navy-600 text-xs">© 2024 Все права защищены</span>
         </div>
